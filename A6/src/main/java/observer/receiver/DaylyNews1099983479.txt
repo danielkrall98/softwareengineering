@@ -1,0 +1,4 @@
+BCMessage [message=Car Baseball Car Baseball Car Baseball Baseball Car # Football #Sport, source=Krone, time=2022-11-25T10:52:13.317396800, topic=Sport]
+BCMessage [message=Football Football Car Car # Baseball Baseball Football Baseball Football #Sport, source=Krone, time=2022-11-25T10:52:13.321394400, topic=Sport]
+BCMessage [message=Football Bad Bad Car Sport Baseball Baseball Football Bad Sport #Sport, source=Krone, time=2022-11-25T17:13:35.301661800, topic=Sport]
+BCMessage [message=Baseball Sport Football Baseball Sport Football Football Car Car Baseball #Sport, source=Krone, time=2022-11-25T17:22:17.314318100, topic=Sport]
