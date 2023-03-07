@@ -1,0 +1,9 @@
+mvc\Main$1.class
+mvc\model\BookManager.class
+mvc\controller\BookManagerController.class
+mvc\controller\BookManagerObserver.class
+mvc\controller\Book.class
+mvc\view\MainFX.class
+mvc\Main.class
+mvc\model\BookManagerSubject.class
+mvc\controller\BCMessage.class
