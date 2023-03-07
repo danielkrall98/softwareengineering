@@ -1,0 +1,39 @@
+// https://developers.google.com/protocol-buffers/docs/style
+// use proto3 syntax
+syntax = "proto3";
+option java_package = "com.baischer.service.grpc";
+option java_multiple_files = true;
+
+service TexasHoldemService {
+    rpc getHandValue (GetHandValueRequest) returns (GetHandValueResponse) {}
+    rpc compareHands (CompareHandsRequest) returns (CompareHandsResponse) {}
+    rpc getProbabilityToWin (GetProbabilityToWinRequest) returns (GetProbabilityToWinResponse) {}
+}
+
+message GetHandValueRequest {
+    string hand = 1; // e.g. "CT CJ CQ CK CA"
+}
+
+message GetHandValueResponse {
+    string hand_value = 1; // e.g. "THREEOFAKIND"
+}
+
+message CompareHandsRequest {
+    string hand1 = 1;
+    string hand2 = 2;
+}
+
+message CompareHandsResponse {
+    int32 result = 1; // -1 <=> h1 < h2, 0 <=> h1 = h2, 1 <=> h1 > h2
+}
+
+message GetProbabilityToWinRequest {
+    string talon_cards = 1; // e.g. "DT H8 S5"
+    string player_pocket_cards = 2; // e.g. "H4 S2"
+    int32 number_of_opponents = 3; // e.g. 2
+    int32 number_of_simulations = 4; // e.g. 888
+}
+
+message GetProbabilityToWinResponse {
+    double probability = 1; // e.g. 0.16
+}
