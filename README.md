@@ -5,7 +5,7 @@ Baischer, Krall
 Completed assignments from the PS Software Engineering (WS 2022/23)
 
 **A1 (Date Formatter):**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10/10   
-**A2 (Calculator):**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10/10 (+ Presentation)   
+**A2 (Calculator):**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10/10 (+ Presentation)   
 **A3 (Bank Manager):**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10/10   
 **A4 (Composite):**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10/10   
 **A5 (Unit Testing):**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10/10   
