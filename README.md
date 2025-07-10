@@ -1,6 +1,5 @@
 # softwareengineering
 PS Software Engineering (WS2022/23) \
-Baischer, Krall
 
 Completed assignments from the PS Software Engineering
 
